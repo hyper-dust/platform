@@ -8,6 +8,6 @@ func _ready():
 	move_platform()
 
 func move_platform():
-	tween.tween_property(self, "position:y", start_position.y +100, 1).set_trans(Tween.TRANS_LINEAR)
-	tween.tween_property(self, "position:y", start_position.y, 1).set_trans(Tween.TRANS_LINEAR)
+	tween.tween_property(self, "position:x", start_position.x +60, 1).set_trans(Tween.TRANS_LINEAR)
+	tween.tween_property(self, "position:x", start_position.x, 1).set_trans(Tween.TRANS_LINEAR)
 	tween.set_loops()  # Ripete all'infinito

@@ -50,7 +50,7 @@ script = ExtResource("1_kla75")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_nrf3m")
 autoplay = "default"
-frame_progress = 0.799182
+frame_progress = 0.379599
 
 [node name="KillZone" parent="." instance=ExtResource("2_yurd4")]
 
@@ -60,11 +60,9 @@ shape = SubResource("RectangleShape2D_ttoui")
 debug_color = Color(0.694118, 0.470588, 0.419608, 0.878431)
 
 [node name="RayCastRight" type="RayCast2D" parent="."]
-visible = false
 position = Vector2(0, 6)
 target_position = Vector2(9, 0)
 
 [node name="RayCastLeft" type="RayCast2D" parent="."]
-visible = false
 position = Vector2(0, 6)
 target_position = Vector2(-9, 0)
